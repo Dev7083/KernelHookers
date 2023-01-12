@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Varela Round
+- Font Author: Copyright 2011-2016 The Varela Round Project Authors (https://github.com/alefalefalef/Varela-Round-Hebrew/), with Reserved Font Names 'Varela' and Varela Round.
+- Font Source: http://fonts.gstatic.com/s/varelaround/v19/w8gdH283Tvk__Lua32TysjIvoMGOD9gxZw.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

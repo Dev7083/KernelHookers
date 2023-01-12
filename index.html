@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icon for website -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/logo/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/logo/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/logo/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/logo/favicon/site.webmanifest">
+
+    <title>Kernal HOOkers | Home</title>
+
+    <!-- Linking Fontawesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <!-- Linking Flickity -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <!-- >>>Change the header bg and add the gif remove the text -->
+    <header>
+        <div class="banner"></div>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <!-- >>>Change Home with the logo -->
+            <!-- <a href="#">
+                <img class="logo" src="./assets/logo/logo-small-white.png" alt="Logo Py">
+            </a> -->
+            <a class="menu-btn" href="#">Home</a>
+            <a class="menu-btn" href="#section2">Python</a>
+            <a class="menu-btn" href="#section3">Courses</a>
+            <a class="menu-btn" href="#section4">Study Material</a>
+            <a class="menu-btn" href="#">Practice Problems</a>
+            <a class="menu-btn" href="./pages/pyide.html" target="_blank">Py IDE</a>
+            <a class="menu-btn" href="./pages/program.html" target="_blank">Py Programs</a>
+            <a class="menu-btn" href="./pages/payment_form.htm" target="_blank">Support</a>
+            <a class="menu-btn flex-align-left" target="_blank"s href="./pages/login page/index.html">Login/SignUp</a>
+        </nav>
+    </header>
+    <main>
+        <section id="section3">
+            <h2><span>Courses</span></h2>
+            <!-- Courses Carousel -->
+            <div class="carousel js-flickity" data-flickity='{"wrapAround": true }'>
+                <!-- <div class="carousel-cell"><video src="assets/courses/webdev/lectures/html.mp4" controls></video></div> -->
+                <!-- <div class="carousel-cell"><video src="assets/courses/chemistry/lectures/electrochemistry.mp4"
+                        poster="assets/courses/chemistry/thumbnail/electrochemistry.jpg" controls></video>
+                </div> -->
+                <!-- <div class="carousel-cell"><video src="assets/courses/maths/lectures/maths.mp4"
+                        poster="assets/courses/maths/thumbnail/maths.jpg" controls></video></div> -->
+                <div class="carousel-cell"><video src="assets/courses/python/lectures/python-lec1.mp4" muted></video></div>
+                <div class="carousel-cell"><video src="assets/courses/cpp/lectures/cpp.mp4"  muted></video></div>
+                <div class="carousel-cell"><video src="assets/courses/python/lectures/python-lec1.mp4"  muted></video></div>
+            </div>
+        </section>
+        <section class="section two" id="section2">
+            <h2><span>Python Videos</span></h2>
+            <!-- College Review Caraousel -->
+            <div class="carousel js-flickity" data-flickity-options='{ "wrapAround": true }'>
+                <div class="carousel-cell"><iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="carousel-cell"><iframe width="853" height="480" src="https://www.youtube.com/embed/T936yTchDck" title="Python Tutorial | Python Course | Intellipaat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="carousel-cell"><iframe width="853" height="480" src="https://www.youtube.com/embed/L5sZ6WgOnj0" title="Python in one video - Learn Complete Python in 2.5 Hours for Beginners 🔥| Full Course" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="study_material" id="section4">
+            <h2><span>Study Material</span></h2>
+            <!-- Notes Carousel -->
+            <div class="carousel js-flickity" data-flickity-options='{ "wrapAround": true }'>
+                <div class="carousel-cell">
+                    <a target="_blank" href="https://drive.google.com/file/d/1Wclo0UUZ-KcFkxTkk6agLros6Zmfv-Yo/view"><img
+                            class="img-responsive"
+                            src="assets\courses\python\notes\python-notes-1.png" alt="Basics Of Python(+LOOPS)"></a>
+                </div>
+                <div class="carousel-cell">
+                    <a target="_blank"
+                        href="https://drive.google.com/file/d/1KRHZwKg6ih7DIXU1U28SHgN4EAVURU7O/view"><img
+                            class="img-responsive"
+                            src="assets\courses\python\notes\python-notes-2.png" alt="Python-Datatypes"></a>
+                </div>
+                <div class="carousel-cell">
+                    <a target="_blank" href="https://drive.google.com/file/d/1ubP52vFeyOoEsF1SWWu7gUMgNxXmEGK8/view"><img
+                            class="img-responsive"
+                            src="assets\courses\python\notes\python-notes-3.png" alt="Python-Functions"></a>
+                            </div>
+        </section>
+        <section class="our_founder">
+            <h2><span>Our Founder</span></h2>
+
+            <img class="profile_img" src="assets/logo/logo-dev.jpeg" alt="This is Aashu Singh">
+            <h3 class="profile_name">Aashu Singh(Dev)</h3>
+            <div class="sm-handle">
+                <a class="yt_handle" href="http://www.youtube.com/" target="_blank"
+                    rel="noopener noreferrer"><i class="fab fa-youtube fa-lg"></i>YouTube</a>
+                <a class="linkdn_handle" href="http://www.linkedin.com/in/" target="_blank"
+                    rel="noopener noreferrer"><i class="fab fa-linkedin fa-lg"></i>LinkedIn</a>
+                <a class="insta_handle" href="http://www.instagram.com/rajputaashu25" target="_blank"
+                    rel="noopener noreferrer"><i class="fab fa-instagram fa-lg"></i>Instagram</a>
+            </div>
+
+            <div class="about_us">
+                <h4 class="about_title">| Young TECH Enthusaist |  </h4>
+                <br>
+                <h5 class="about_content">Together we will build a better Tommorow.</h5>
+                <br>
+                <h4 class="about_title">| Python, MySQL , SQLite, CustomTKinter,Web development, Data Visualization(NumPY & Matplotlib) |  </h4>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#">FAQ</a>
+        <a href="mailto:someone@example.com">Contact Us</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Refund Policy</a>
+        <a href="#" class="flex-align-left">&copy; 2023 | Kernel HOOkers</a>
+    </footer>
+    <!-- Flickity JS files -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+
+</html>
