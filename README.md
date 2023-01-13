@@ -6,16 +6,30 @@ A Pyhton Tutorial Webpage.
 
 Kernel HOOkers is a website relating to learning Python &amp; testing Web development Projects &amp; Python Implementations.
 
+## Table of contents
+* [Illustration](#illustration)
+* [Dependencies](#dependencies)
+* [Installation](#installation)
+* [Executing Program](#executing-program)
+* [Help](#help)
+* [Authors](#authors)
+* [Version History](#version-history)
+* [License](#license)
+* [Acknowledgement](#acknowledgements)
+
 ## Getting Started
 
 * https://dev7083.github.io/KernelHookers/
+
+### Illustration
+* ![Home page](./images/home.png)
 
 ### Dependencies
 
 * No prerequites needed must have connection with the Internet.
 * CDN js delivery rely on Internet connectivity to function properly
 
-### Installing
+### Installation
 
 * Just Clone this repository and enjoy.
 * No modification needed on Files and Folder .
@@ -37,9 +51,9 @@ command to run if program contains helper info
 
 ## Authors
 
-Aashu Singh (Dev)
+* Aashu Singh (Dev)
 
-ds450974@gmail.com
+* ds450974@gmail.com
 
 ## Version History
 
@@ -50,7 +64,7 @@ ds450974@gmail.com
 
 This project is licensed under the [GNU Public] License - see the LICENSE.md file for details
 
-## Acknowledgments
+## Acknowledgements
 
 Inspiration, code snippets, etc.
 * [awesome-readme](https://github.com/matiassingers/awesome-readme)
