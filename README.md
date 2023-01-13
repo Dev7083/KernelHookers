@@ -15,7 +15,7 @@ Kernel HOOkers is a website relating to learning Python &amp; testing Web develo
 * [Authors](#authors)
 * [Version History](#version-history)
 * [License](#license)
-* [Acknowledgement](#acknowledgement)
+* [Acknowledgement](#acknowledgements)
 
 ## Getting Started
 
