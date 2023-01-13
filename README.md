@@ -21,7 +21,7 @@ Kernel HOOkers is a website relating to learning Python &amp; testing Web develo
 
 * https://dev7083.github.io/KernelHookers/
 
-### Illustration
+## Illustration
 * ![Home page](./images/home.png)
 
 ### Dependencies
