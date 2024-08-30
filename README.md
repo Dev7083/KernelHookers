@@ -1,10 +1,10 @@
-# Kernel HOOkers
+# Kernel Hackers
 
 A Pyhton Tutorial Webpage.
 
 ## Description
 
-Kernel HOOkers is a website relating to learning Python &amp; Web development Projects &amp; Python Implementations.
+Kernel Hackers is a website relating to learning Python &amp; Web development Projects &amp; Python Implementations.
 
 ## Table of contents
 * [Illustration](#illustration)
